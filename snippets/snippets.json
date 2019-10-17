@@ -1,7 +1,7 @@
 {
     "Selection": {
         "prefix": "Selection",
-        "body": "Selection(${1:RT1} / ${2:RT2})"
+        "body": "Selection(${1:RT1} / ${2:Attribut} ${3:operateur} ${4:valeur})"
     },
     "Projection": {
         "prefix": "Projection",
