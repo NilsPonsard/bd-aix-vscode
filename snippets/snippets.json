@@ -13,14 +13,14 @@
     },
     "Intersection": {
         "prefix": "Intersection",
-        "body": "Intersection(${1:RT1},${2:RT2})"
+        "body": "Intersection(${1:RT1}, ${2:RT2})"
     },
     "Difference": {
         "prefix": "Difference",
-        "body": "Difference(${1:RT1},${2:RT2})"
+        "body": "Difference(${1:RT1}, ${2:RT2})"
     },
     "Jointure": {
         "prefix": "Jointure",
-        "body": "Jointure(${1:RT1},${2:RT2} / ${3:A} ${4:operateur} ${5:B})"
+        "body": "Jointure(${1:RT1}, ${2:RT2} / ${3:A} ${4:operateur} ${5:B})"
     }
 }
