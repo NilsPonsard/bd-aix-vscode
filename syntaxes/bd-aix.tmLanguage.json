@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "bd-aix",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#string"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "support.class",
+					"match": "\\b(Jointure|Union|Difference|Intersection)\\b"
+				},
+				{
+					"name": "keyword.operator",
+					"match": "(=|!=|<|>|<=|>=|≠)"
+				},
+				{
+					"name": "support.function",
+					"match": "\\b(Selection|Projection)\\b"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "\\b(\\d+)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.algo-aix",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.algo-aix",
+					"match": "\\\\."
+				}
+			]
+		},
+		"string": {
+			"name": "constant.character",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.algo-aix",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.bd-aix"
+}

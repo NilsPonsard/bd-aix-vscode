@@ -1,0 +1,49 @@
+{
+    "name": "bd-aix",
+    "displayName": "Base De Donnée papier Aix",
+    "description": "Support du langage papier pour base de données étudié à l'IUT d'aix ",
+    "author": {
+        "name": "nilsponsard"
+    },
+    "publisher": "nilsponsard",
+    "version": "0.2.0",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "bd-aix",
+                "aliases": [
+                    "bd-aix",
+                    "bd-aix"
+                ],
+                "extensions": [
+                    ".bd"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "bd-aix",
+                "scopeName": "source.bd-aix",
+                "path": "./syntaxes/bd-aix.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "bd-aix",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "123312c8-49f4-471f-bb9e-332bd7d49c8e",
+        "publisherDisplayName": "nilsponsard",
+        "publisherId": "573d7463-a908-4962-a1ce-c496d3c6e849"
+    }
+}
