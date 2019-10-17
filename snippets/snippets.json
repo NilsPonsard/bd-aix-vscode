@@ -5,7 +5,7 @@
     },
     "Projection": {
         "prefix": "Projection",
-        "body": "Projection(${1:RT1} / ${2:RT2})"
+        "body": "Projection(${1:RT1} / ${2:Attribut(s)})"
     },
     "Union": {
         "prefix": "Union",

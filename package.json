@@ -5,8 +5,11 @@
     "author": {
         "name": "nilsponsard"
     },
+    "repository": {
+        "url": "https://github.com/NilsPonsard/bd-aix-vscode"
+    },
     "publisher": "nilsponsard",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "engines": {
         "vscode": "^1.39.0"
     },
