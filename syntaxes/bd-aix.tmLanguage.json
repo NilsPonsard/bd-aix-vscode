@@ -17,7 +17,7 @@
 			"patterns": [
 				{
 					"name": "support.class",
-					"match": "\\b(Jointure|Union|Difference|Intersection)\\b"
+					"match": "\\b(Jointure|Division|Union|Difference|Intersection)\\b"
 				},
 				{
 					"name": "keyword.operator",

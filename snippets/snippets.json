@@ -1,4 +1,8 @@
 {
+    "Division": {
+        "prefix": "Division",
+        "body": "Division(${1:RT1}, ${2:RT2} / ${3:Attribut}, ${4:Attribut})"
+    },
     "Selection": {
         "prefix": "Selection",
         "body": "Selection(${1:RT1} / ${2:Attribut} ${3:operateur} ${4:valeur})"
